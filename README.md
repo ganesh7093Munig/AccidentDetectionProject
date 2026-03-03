@@ -1,7 +1,7 @@
 <p align="center">
 </p>
 
-<h1 align="center"> Road Accident Detection System using YOLO and CCTV Surveillance</h1>
+<h1 align="center"> Road Accident Detection System using YOLO from videos</h1>
 
 It is an AI-powered real-time accident detection system designed to revolutionize road safety. By leveraging advanced computer vision technology, detects vehicle collisions through CCTV footage and instantly notifies highway authorities, enabling swift emergency responses.
 
@@ -156,5 +156,6 @@ Special thanks to [Roboflow](https://universe.roboflow.com/deteccion-h92uo/detec
 
 ## 📬 Support & Contact Information
 For any queries, feedback, or support, feel free to reach out at: **mmunigetiganesh@gmail.com**
+
 
 
