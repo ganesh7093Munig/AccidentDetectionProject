@@ -1,25 +1,10 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1e7ceab6-443b-488d-af8f-ed17ec77cce0" alt="Food Ordering Website Logo">
 </p>
 
 <h1 align="center">Nirikshan: Real-Time Road Accident Detection System using YOLOv11 and CCTV Surveillance</h1>
 
-**Nirikshan** is an AI-powered real-time accident detection system designed to revolutionize road safety. By leveraging advanced computer vision technology, Nirikshan detects vehicle collisions through CCTV footage and instantly notifies highway authorities, enabling swift emergency responses.
+It is an AI-powered real-time accident detection system designed to revolutionize road safety. By leveraging advanced computer vision technology, detects vehicle collisions through CCTV footage and instantly notifies highway authorities, enabling swift emergency responses.
 
-## 📝 Table of Contents
-
-1. [Key Features](#key-features)
-2. [Built With](#built-with)
-3. [Getting Started Guide](#getting-started-guide)
-4. [Running the Application](#running-the-application)
-5. [How It Works](#how-it-works)
-6. [System Architecture](#system-architecture)
-7. [Methodology](#methodology)
-8. [Performance Highlights](#performance-highlights-)
-9. [Repository Structure](#repository-structure)
-10. [License](#license)
-11. [Credits & Acknowledgments](#credits--acknowledgments)
-12. [Support & Contact Information](#support--contact-information)
 
 ## Key Features ✨
 - **Real-Time Detection:** Powered by YOLO-based object detection for accurate identification of vehicle collisions.
@@ -30,7 +15,7 @@
 ## Built With
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nextjs,fastapi,postgres,tailwindcss,prisma,pytorch" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=fastapi,pytorch" alt="Tech Stack" />
 </p>
 
 ## 🚀 Getting Started Guide
@@ -41,7 +26,6 @@ Follow these steps to set up the project on your local machine.
 
 Ensure you have the following tools installed:
 
-- ✅ **Node.js** (v14 or later)  
 - ✅ **npm** or **yarn**  
 - ✅ **Python** (v3.8 or later)  
 - ⚡ **CUDA Toolkit** (for GPU acceleration, optional)
@@ -58,7 +42,7 @@ Ensure your CUDA version matches your PyTorch build.
 ### 1. 📁 Clone the Repository
 
 ```bash
-git clone https://github.com/VishalRMahajan/Nirikshan.git
+git clone https://github.com/ganesh7093Munig/AccidentDetection.git
 cd Nirikshan
 ```
 
@@ -89,24 +73,8 @@ npm install
 
 3. **Create or Update the Following Files in the `frontend` Directory:**
 
-   `.env.local`
-   ```
-   AUTH_SECRET= # Automatically added by `npx auth`
-   AUTH_GOOGLE_ID= # Your Google Client ID
-   AUTH_GOOGLE_SECRET= # Your Google Client Secret
-   ```
 
-   `.env`
-   ```
-   DATABASE_URL= # Your Postgres database connection string
-   ```
 
-4. **Database Setup**  
-   Make sure you are in the `frontend` directory before running the following commands:
-   ```bash
-   cd frontend
-   pnpm exec prisma migrate dev
-   pnpm exec prisma generate
    ```
 
 ### 4. 🔌 Set Up the Backend
@@ -144,7 +112,7 @@ uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 
 The backend will be available at `http://localhost:8000`.
 
-### 2. 🌐 Start the Frontend (Next.js)
+### 2. 🌐 Start the Frontend 
 
 ```bash
 cd ../frontend
@@ -155,12 +123,12 @@ The frontend will be available at `http://localhost:3000`.
 
 ## How It Works 🚦
 
-Nirikshan is an AI-powered accident detection system that leverages advanced computer vision technology to identify vehicle collisions in real-time and facilitate rapid emergency response. Here's how it works:
+It is an AI-powered accident detection system that leverages advanced computer vision technology to identify vehicle collisions in real-time and facilitate rapid emergency response. Here's how it works:
 
 ### **Step-by-Step Process**
 
 1. **Accident Happens**  
-   A crash occurs on the highway, captured by CCTV cameras installed at strategic locations.
+   A crash occurs on the highway, captured by cctv foootages
 
 2. **CCTV Captures Footage**  
    The video feed is processed using a YOLO-based vehicle collision detection model to identify accidents with high accuracy.
@@ -197,27 +165,7 @@ Nirikshan is an AI-powered accident detection system that leverages advanced com
 - All classes achieve ~99% mAP@50
 - Strongest performance: `car_object_accident` (97.6% mAP@50-95)
 
-## 🗂️ Repository Structure
 
-The project is divided into two main parts:
-
-1. **Frontend** (`/frontend`):  
-   - Built with **Next.js** and **TypeScript**.
-   - Handles the user interface, routing, and authentication.
-   - Includes Prisma for database interaction.
-   - Key files:
-     - `.env.local`: Environment variables for the frontend (Google OAuth, Prisma settings).
-     - `.env`: Additional environment variables for general frontend configuration.
-     - `pages/`: App pages (e.g., `index.tsx`, `login.tsx`).
-     - `components/`: Reusable components.
-     - `prisma/`: Prisma schema and migration files.
-
-2. **Backend** (`/backend`):  
-   - Built with **FastAPI**.
-   - Manages APIs, authentication, and database interaction.
-   - Key files:
-     - `app/`: Core app logic (routes, models, and schemas).
-     - `requirements.txt`: Python dependencies.
 
 ## 📄 License  
 This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details.
@@ -226,4 +174,5 @@ This project is licensed under the [MIT License](LICENSE). See the LICENSE file 
 Special thanks to [Roboflow](https://universe.roboflow.com/deteccion-h92uo/deteccion_accidentes) for providing the dataset used for training the model. 
 
 ## 📬 Support & Contact Information
-For any queries, feedback, or support, feel free to reach out at: **vism06@gmail.com**
+For any queries, feedback, or support, feel free to reach out at: **mmunigetiganesh@gmail.com**
+
