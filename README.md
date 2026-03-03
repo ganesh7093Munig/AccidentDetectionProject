@@ -1,7 +1,7 @@
 <p align="center">
 </p>
 
-<h1 align="center">Nirikshan: Real-Time Road Accident Detection System using YOLOv11 and CCTV Surveillance</h1>
+<h1 align="center"> Road Accident Detection System using YOLO and CCTV Surveillance</h1>
 
 It is an AI-powered real-time accident detection system designed to revolutionize road safety. By leveraging advanced computer vision technology, detects vehicle collisions through CCTV footage and instantly notifies highway authorities, enabling swift emergency responses.
 
@@ -55,29 +55,10 @@ cd frontend
 npm install
 ```
 
-### 3. 🔐 Configure Environment Variables (Frontend Only)
-
-1. **Generate Authentication Secret**  
-   Make sure you are in the `frontend` directory before running the following command:
-   ```bash
-   npx auth secret
-   ```
-
-2. **Set Up Google OAuth**
-   - Go to the [Google Cloud Console](https://console.cloud.google.com/).
-   - Create a new project and configure OAuth consent.
-   - Set the Authorized Redirect URI to:
-     ```
-     http://localhost:3000/api/auth/callback/google
-     ```
-
-3. **Create or Update the Following Files in the `frontend` Directory:**
-
-
 
    ```
 
-### 4. 🔌 Set Up the Backend
+### 3. 🔌 Set Up the Backend
 
 1. **Create a Virtual Environment**  
    ```bash
@@ -123,7 +104,7 @@ The frontend will be available at `http://localhost:3000`.
 
 ## How It Works 🚦
 
-It is an AI-powered accident detection system that leverages advanced computer vision technology to identify vehicle collisions in real-time and facilitate rapid emergency response. Here's how it works:
+It is an  accident detection system that leverages advanced computer vision technology to identify vehicle collisions in real-time and facilitate rapid emergency response. Here's how it works:
 
 ### **Step-by-Step Process**
 
@@ -140,9 +121,9 @@ It is an AI-powered accident detection system that leverages advanced computer v
    Authorities verify the incident through an intuitive dashboard and dispatch emergency services to the scene.
 
 ## **System Architecture**
-<p align="center">
+<!-- <p align="center">
   <img src="https://github.com/user-attachments/assets/1d0be4ae-d18b-4758-893a-3cb333f09d44" alt="Food Ordering Website Logo">
-</p>
+</p> -->
 
 ## Methodology
 <p align="center">
@@ -175,4 +156,5 @@ Special thanks to [Roboflow](https://universe.roboflow.com/deteccion-h92uo/detec
 
 ## 📬 Support & Contact Information
 For any queries, feedback, or support, feel free to reach out at: **mmunigetiganesh@gmail.com**
+
 
